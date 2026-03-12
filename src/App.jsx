@@ -206,7 +206,7 @@ export default function App() {
 
             <div style={{ marginBottom: "20px" }}>
               <div style={{ fontSize: "12px", color: "#444", marginBottom: "10px", letterSpacing: "0.08em", textTransform: "uppercase" }}>URL do site alvo</div>
-              <input style={s.input} placeholder="https://stripe.com" value={url} onChange={e => setUrl(e.target.value)} onKeyDown={e => e.key === "Enter" && url && setView("interview")} />
+              <input style={s.input} placeholder="https://aldrat.com" value={url} onChange={e => setUrl(e.target.value)} onKeyDown={e => e.key === "Enter" && url && setView("interview")} />
             </div>
 
             <div style={{ marginBottom: "28px" }}>
