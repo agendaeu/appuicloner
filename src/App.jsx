@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 
-const API = "uicloner.up.railway.app";
+const API = "https://uicloner.up.railway.app";
 
 const TOOLS = ["Claude", "Cursor", "Bolt", "v0", "Framer", "Webflow AI", "Lovable"];
 
